@@ -1,0 +1,45 @@
+.ad-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+
+  > thead {
+    > tr {
+      > th {
+        height: 39px;
+        padding: 11px 22px 10px;
+        text-align: left;
+
+        > a {
+          color: $base-color;
+          font-weight: 600;
+          text-decoration: none;
+          position: relative;
+
+          .caret {
+            margin-right: -15px;
+            position: absolute;
+            top: 50%;
+            margin-top: -2px;
+            right: 0;
+
+          }
+        }
+      }
+    }
+  }
+
+  > tbody {
+    > tr {
+      &.active {
+        background-color: $ad-base-bg-color;
+        border-bottom: $ad-row-active-border-width solid $ad-base-pink-color;
+      }
+
+      > td {
+        padding: 11px 22px 10px;
+        border-top: 1px solid $ad-base-border-color;
+      }
+    }
+  }
+}

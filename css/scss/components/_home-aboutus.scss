@@ -1,0 +1,99 @@
+.home-aboutus{
+  width: 100%;
+  height: 742px;
+	text-align:center;
+  background-color: #ccc;
+
+  span{
+    font-family: $home-base-font-Helvetica;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #4a4a4a;
+    display: block;
+    padding: 10px 0;
+    line-height: 1.4em;
+  }
+}
+
+.home-aboutus-title{
+  font-family: KristenITC;
+  font-size: 36px;
+  text-align: center;
+  color: #d2296b;
+  padding-top: 25px;
+  margin-top: 0;
+}
+
+.home-about-bottom-line{
+  position: relative;
+  &:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 47.5%;
+    right: 47.5%;
+    border-bottom: 1px solid #d2296b;
+  }
+}
+
+
+.home-aboutus-box-info{
+  display: inline-block;
+  width: 194.3px;
+  height: 190px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255,0.6);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.19);
+  font-family: $home-base-font-Helvetica;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-bottom: 25px;
+
+  h2{
+    font-size: 16px;
+    margin-top: 0;
+    padding:10px 0;
+    font-weight: normal;
+  }
+  p{
+    padding: 5px 17px;
+    line-height: 1.4em;
+  }
+  .yellow{
+    background-color: rgba(236, 185, 9,0.6);
+  }
+
+  .orange{
+    background-color: rgba(255, 124, 3,0.6);
+  }
+
+  .green{
+    background-color: rgba(98, 167, 68,0.6);
+  }
+
+  .blue{
+    background-color: rgba(74, 144, 226,0.6);
+  }
+}
+
+
+.home-aboutus-services-info{
+    font-family: $home-base-font-Helvetica;
+    color: #4a4a4a;
+    font-size: 14px;
+  h3{
+    font-weight: bold;
+  }
+
+  ul{
+    padding-left: 17px;
+    li{
+      font-size: 14px;
+      line-height: 1.7em;
+      display: block;
+    }
+  }
+}

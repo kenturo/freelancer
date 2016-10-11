@@ -1,0 +1,118 @@
+// Overrides, helpers, utilities.
+// Only affect one piece of the
+// DOM at a time.
+// Usually carry !important.
+
+.visible {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.caret {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  @include caret-down();
+
+  &.up {
+    @include caret-up();
+  }
+
+  &.left {
+    @include caret-left();
+  }
+
+  &.right {
+    @include caret-right();
+  }
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.success {
+  color: $ad-base-success-color;
+}
+
+.disabled {
+  color: $ad-base-hint-color;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+
+.margin-top {
+  margin-top: $base-gutter-total !important;
+}
+
+.margin-bottom {
+  margin-bottom: $base-gutter-total !important;
+}
+
+.margin-left {
+  margin-left: $base-gutter-total !important;
+}
+
+.margin-right {
+  margin-right: $base-gutter-total !important;
+}
+
+.margin-top-half {
+  margin-top: $base-gutter !important;
+}
+
+.margin-bottom-half {
+  margin-bottom: $base-gutter !important;
+}
+
+.margin-left-half {
+  margin-left: $base-gutter !important;
+}
+
+.margin-right-half {
+  margin-right: $base-gutter !important;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.full-height {
+  height: 100% !important;
+}

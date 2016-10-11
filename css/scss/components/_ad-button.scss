@@ -1,0 +1,40 @@
+.ad-button {
+  background-color: $ad-base-blue-color;
+  color: #fff;
+  border: 0;
+  border-radius: 100px;
+  padding: 3px 11px 4px;
+  cursor: pointer;
+
+  &.pink {
+    background-color: $ad-base-pink-color;
+  }
+
+  &.grey {
+    background-color: #9b9b9b;
+  }
+
+  &.square {
+    border-radius: 4px;
+    padding: 9px 12px 10px;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  &.shadow {
+    box-shadow: 0 1px 3px 0 rgba(131, 131, 131, 0.5);;
+  }
+
+  &.close {
+    width: 72px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  &.upload {
+    width: 118px;
+    height: 28px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+  }
+}

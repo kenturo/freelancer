@@ -1,0 +1,41 @@
+// Globally-available tools.
+// Public mixins.
+// Helper functions.
+
+@mixin normal-list($margin: 0, $padding: 0, $list-style: none) {
+  margin: $margin;
+  padding: $padding;
+  list-style: $list-style;
+}
+
+@mixin caret-up($left: 5px, $right: 5px, $bottom: 5px, $color: #717171) {
+  border-left: $left solid transparent;
+  border-right: $right solid transparent;
+  border-bottom: $bottom solid $color;
+
+}
+
+@mixin caret-down($left: 5px, $right: 5px, $top: 5px, $color: #717171) {
+  border-left: $left solid transparent;
+  border-right: $right solid transparent;
+  border-top: $top solid $color;
+}
+
+@mixin caret-left($top: 5px, $bottom: 5px, $right: 5px, $color: #717171) {
+  border-top: $top solid transparent;
+  border-bottom: $bottom solid transparent;
+  border-right: $right solid $color;
+}
+
+@mixin caret-right($top: 5px, $bottom: 5px, $left: 5px, $color: #717171) {
+  border-top: $top solid transparent;
+  border-bottom: $bottom solid transparent;
+  border-left: $left solid $color;
+}
+
+@mixin flex-col-custom-width($width) {
+  -webkit-flex-basis: $width;
+  -ms-flex-preferred-size: $width;
+  flex-basis: $width;
+  max-width: $width;
+}

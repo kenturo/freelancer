@@ -1,0 +1,61 @@
+.ad-form-row {
+  margin-bottom: 17px;
+
+  &.last {
+    margin-bottom: 0;
+  }
+
+  &.horizontal {
+    .ad-form-label {
+      padding-top: 10px;
+    }
+  }
+}
+
+.ad-form-input {
+  width: 100%;
+  border: 1px solid #8ca0b3;;
+  padding: 6px 12px 7px;
+  border-radius: 3px;
+  color: $base-color;
+
+  &.select {
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+
+    select {
+      width: 130%;
+      border: none;
+      box-shadow: none;
+      background-color: transparent;
+      background-image: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      padding: 10px 12px;
+      color: $base-color;
+    }
+
+    .caret {
+      position: absolute;
+      top: 50%;
+      margin-top: -2px;
+      right: 12px;
+    }
+  }
+}
+
+textarea.ad-form-input {
+  min-height: 115px;
+  resize: vertical;
+}
+
+.ad-form-note {
+  margin-top: -12px;
+  text-align: right;
+  font-style: italic;
+  font-size: 11px;
+  color: $ad-base-placeholder-color
+}

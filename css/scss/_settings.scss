@@ -1,0 +1,39 @@
+// Only variables
+// Globally-available settings.
+// Config switches.
+// Brand colours, etc.
+@font-face {
+  font-family: 'KristenITC';
+  src: url('../fonts/ITCKRIST.ttf')  format('truetype');
+}
+
+$base-color: #9b9b9b;
+
+
+$base-gutter-total: 30px;
+$base-gutter: 15px;
+
+// ADMIN
+
+$ad-base-width: 1440px;
+$ad-base-content-width: 1183px;
+
+$ad-base-bg-color: #f6f6f6;
+$ad-base-blue-color: #22b5bf;
+$ad-base-green-color: #2ab5c0;
+$ad-base-pink-color: #d32769;
+$ad-base-hint-color: #bdbdbd;
+$ad-base-border-color: #dadada;
+$ad-base-success-color: #7ed321;
+$ad-base-placeholder-color: #bebebe;
+
+$ad-nav-width: 250px;
+$ad-content-data-width: 400px;
+$ad-row-active-border-width: 2px;
+
+// HOME
+$home-base-bg-color-notify: #59b1da;
+$home-base-txt-color-notify: #fff;
+$home-base-bg-button-color-notify: #d2296b;
+$home-base-font-Helvetica: "Helvetica";
+$home-base-bg-color-footer: #666;

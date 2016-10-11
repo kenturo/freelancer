@@ -1,0 +1,30 @@
+{
+  "name": "blippe-frontend",
+  "version": "1.0.0",
+  "description": "The Frontend of Blippe",
+  "main": "js/index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start:server": "node server.js",
+    "lint": "gulp lint",
+    "dev": "gulp dev",
+    "build": "gulp"
+  },
+  "author": "pqdong21@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.6.1",
+    "gulp": "^3.9.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.10"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "env": {
+        "browser": true,
+        "jquery": true
+    },
+    "globals": {
+        "require": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": 0
+    }
+}

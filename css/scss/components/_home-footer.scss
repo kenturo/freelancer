@@ -1,0 +1,38 @@
+.home-footer{
+  width: 100%;
+  height: 73px;
+  background-color: $home-base-bg-color-footer;
+}
+
+.home-nav-footer{
+	ul{
+		li{
+			list-style: none;
+			display: inline-block;
+			margin-right: 15px;
+			a{
+			  // font-family: LucidaSans;
+			  font-size: 12px;
+			  color: #fff;
+			  text-decoration: none;
+			}
+		}
+	}
+}
+
+
+.home-social-footer{
+	text-align:right;
+  margin-right: 40px;
+	ul{
+		li{
+			margin-right: 20px;
+			span{
+		    color: #fff;
+		    position: relative;
+		    display: block;
+		    top: -5px;
+			}
+		}
+	}
+}
