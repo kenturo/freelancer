@@ -7,7 +7,7 @@
     "doc": "doc"
   },
   "scripts": {
-    "start:server": "node server.js",
+    "start": "gulp && node server.js",
     "lint": "gulp lint",
     "dev": "gulp dev",
     "build": "gulp"
